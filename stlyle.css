@@ -1,0 +1,116 @@
+.mainBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 16px;
+}
+input#one{
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: transparent;
+    position: relative;
+}
+ input#one:checked::after {
+    content: '\200';
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+}
+input#two{
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: transparent;
+    position: relative;
+}
+ input#two:checked::after {
+    content: '\210';
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+}
+input#three{
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: transparent;
+    position: relative;
+}
+ input#three:checked::after {
+    content: '\200';
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+}
+input#four{
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: transparent;
+    position: relative;
+}
+ input#four:checked::after {
+    content: '\24';
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+}
+input#five{
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-color: transparent;
+    position: relative;
+}
+ input#five:checked::after {
+    content: '\266';
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+
+}
+    input#six{
+        appearance: none;
+        background-color: rgb(0, 0, 0);
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border-color: transparent;
+        position: relative;
+    }
+     input#six:checked::after {
+        content: '\222';
+        font-size: 30px;
+        position: absolute;
+        top: 2px;
+        left: 10px;
+        color: rgb(255, 255, 255);
+    
+    }
